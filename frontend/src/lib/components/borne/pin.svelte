@@ -31,7 +31,6 @@
 						on:click={() => {
 							temp_pin += i;
 							if (temp_pin.length === 20) {
-								console.log('e' + temp_pin)
 								callback(temp_pin);
 								temp_pin = '';
 							}
